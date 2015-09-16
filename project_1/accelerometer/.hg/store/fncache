@@ -1,0 +1,4 @@
+data/main.cpp.i
+data/MMA8451Q.lib.i
+data/mbed-KL25Z.lib.i
+data/mbed.bld.i

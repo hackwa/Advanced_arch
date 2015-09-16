@@ -1,0 +1,7 @@
+--cpu Cortex-M0+
+".\build\main.o"
+".\build\mma8451q.o"
+--strict --scatter "mbed/KL25Z/ARM/MKL25Z4.sct"
+mbed/KL25Z/ARM/sys.o mbed/KL25Z/ARM/core_cm0.o mbed/KL25Z/ARM/system_MKL25Z4.o mbed/KL25Z/ARM/cmsis_nvic.o mbed/KL25Z/ARM/startup_MKL25Z4.o mbed/KL25Z/ARM/mbed.ar --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\build\accelerometer.map" -o .\build\accelerometer.axf
